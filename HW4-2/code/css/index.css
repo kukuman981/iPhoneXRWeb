@@ -1,0 +1,172 @@
+body{
+    background-color:black;
+    margin:auto;
+    width:1200px;
+}
+
+
+
+.header-border{
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(102,102,102);
+    z-index: 3;
+    
+
+}
+
+.header-a{
+    text-decoration: none;
+    color:white;
+    font-family: Microsoft Yahei UI ,Arial, sans-serif;
+    
+}
+
+.header-a:hover{
+    color:rgb(157,157,157);
+    text-decoration: none;
+}
+
+.hover:hover{
+    color:rgb(157,157,157);
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Microsoft Yahei UI ,Arial, sans-serif;
+}
+
+
+
+
+.main-header2{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin:auto;
+    z-index: -1;
+}
+
+.main-h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-h2{
+    font-size:25px;
+    font-weight: 100;
+}
+
+
+.main-picture{
+    margin-top:10%;
+    size:auto;
+    width:auto;
+    height:500px;
+}
+
+.main-picture-contain{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-picture-contain-a{
+    color:rgb(0, 238, 255);
+}
+
+.main-picture-contain-a:hover{
+    color:rgba(0, 238, 255, 0.411);
+}
+
+.main-context{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.main-context-column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-context-picture{
+    margin: 0 10% 10% 10%;
+    padding: 20px 40px 15px 40px;
+}
+
+.main-context-picture:hover{
+    opacity: 0.5;
+}
+
+.last-context{
+    color:white;
+    font-size: 10px;
+    font-weight: 100;
+    margin-left:-20%;
+}
+
+
+.last-context-a{
+    text-decoration: none;
+    color:rgb(0, 238, 255);
+}
+
+.last-context-a:hover{
+    color:rgba(0, 238, 255, 0.411);
+}
+
+.line{
+    padding:0.5px 600px;
+    background-color:white;
+}
+
+.footer-context{
+    display: flex;
+    justify-content: space-around;
+    margin-top:10px;
+}
+
+.footer-context-column{
+    color: white;
+    font-size: 10px;
+    font-family: Microsoft Yahei UI ,Arial, sans-serif;
+    padding: 0 30px;
+}
+
+.footer-a{
+    text-decoration: none;
+    color:white;
+    font-weight: 100;
+}
+
+.footer-a:hover{
+    color:rgba(255, 255, 255, 0.411);
+}
+
+.footer-horz-line{
+    color:white;
+    display: flex;
+    margin-top:10px;
+    margin-left:18.5%;
+
+}
+
+.footer-three-img{
+    margin-left:29%;
+}
+
+.footer-image{
+    padding:0 10px 0 10px;
+}
+
+.footer-image:hover{
+    opacity: 0.5;
+}
